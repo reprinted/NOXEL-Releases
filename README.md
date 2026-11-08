@@ -1,37 +1,41 @@
 # NOXEL — Official Releases
 
-**NOXEL** is a Windows display-management utility for resolution, refresh rate, color controls (where supported), and saved display presets.
+**NOXEL** is a Windows display-management utility for resolutions, refresh rates, supported color controls, and saved presets.
 
-This **public repository is for compiled releases and update information only**. NOXEL's application source code is maintained separately and privately.
+This repository is the **public binary-distribution channel**. The NOXEL source repository is planned to be published separately at `reprinted/NOXEL` after a dependency, security, and license review. **Source code has not been published here.**
 
 ## Downloads
 
-There is **no published release yet**. Once the first verified build is ready, use [the Releases page](https://github.com/reprinted/NOXEL-Releases/releases) to download it.
+No stable release is published yet. Verified builds will appear on the [Releases page](https://github.com/reprinted/NOXEL-Releases/releases).
 
-Planned assets:
+Planned Windows x64 assets:
 
-| Asset | Description |
+| Asset | Purpose |
 | --- | --- |
-| `NOXEL.exe` | Portable Windows x64 application |
-| `NOXEL-Setup.exe` | Windows x64 installer |
-| `SHA256SUMS.txt` | Published file checksums |
+| `NOXEL.exe` | Portable application |
+| `NOXEL-Setup.exe` | Inno Setup installer |
+| `SHA256SUMS.txt` | Asset checksums |
 
-Avoid unofficial mirrors.
+## Licensing
 
-## Application updates
+**Planned license for NOXEL's original application code: GNU GPL v3 only (`GPL-3.0-only`).**
 
-The NOXEL desktop updater is **not yet connected**. It will eventually check the public [GitHub Releases API](https://api.github.com/repos/reprinted/NOXEL-Releases/releases/latest) for stable versions. This API may return 404 until the first stable release is published.
+The GPL transition is **in preparation**. NOXEL's original source has not been published under GPL yet; an old proprietary EULA should not accompany future GPL releases.
+
+Before publishing binaries, the developer must include the applicable GPL v3 license text, corresponding source-code access for the exact build, copyright notices, and all required third-party licenses. Third-party components and assets retain their own licenses. NOXEL branding may have separate trademark considerations.
+
+This repository's README does not itself license unpublished source code or grant rights to third-party components.
 
 ## Compatibility
 
-Windows 10/11 x64. Supported display modes depend on monitor and driver capability. Advanced color features vary with GPU and Windows display settings.
+Target: Windows 10/11 x64. Actual available modes and advanced color controls depend on the GPU, driver, display, and Windows configuration. Cross-vendor support must not be represented as hardware-tested without evidence.
 
-## License and security
+## Updates
 
-NOXEL is intended to be proprietary, including its original code and branding. Final end-user license terms and applicable third-party notices will accompany published builds. This repository does not place the NOXEL application under an open-source license.
+The updater inside the NOXEL application is being developed. Its planned stable release endpoint is [GitHub Releases API](https://api.github.com/repos/reprinted/NOXEL-Releases/releases/latest). Until the first stable release exists, this may return 404.
 
-Public GitHub downloads are not access-controlled. GitHub hosting or checksum verification does not establish an authenticated code-signing identity; unsigned builds may show Windows warnings.
+Only download from the official repository. GitHub hosting and SHA-256 checksums are not substitutes for publisher signing; unsigned executables may prompt Windows warnings.
 
-## For the developer
+## Development
 
-See [Release checklist](docs/RELEASING.md) before publishing any version.
+See [the release checklist](docs/RELEASING.md). Do not upload private configuration files, credentials, signing keys, personal information, or unreleased artifacts.
