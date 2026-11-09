@@ -6,17 +6,19 @@ This repository is the **public binary-distribution channel**. The source code i
 
 ## Downloads
 
-Get the latest version from the [Releases page](https://github.com/reprinted/NOXEL-Releases/releases/latest).
+**Official recommended download: [NOXEL-Setup.exe — Installer](https://github.com/reprinted/NOXEL-Releases/releases/latest).** Open the latest release and choose `NOXEL-Setup.exe` under **Assets** to install NOXEL normally.
 
-Windows x64 assets:
+**Alternative: [NOXEL.exe — Portable Version](https://github.com/reprinted/NOXEL-Releases/releases/latest).** The portable version runs directly without installing NOXEL. It is intended for people who prefer a standalone executable or want to test NOXEL without the normal installation process.
 
-| Asset | Purpose |
+| File | What it is |
 | --- | --- |
-| `NOXEL.exe` | Portable application |
-| `NOXEL-Setup.exe` | Inno Setup installer |
-| `SHA256SUMS.txt` | Asset checksums |
+| **`NOXEL-Setup.exe`** | **Installer (recommended)** — installs NOXEL like a normal Windows application |
+| **`NOXEL.exe`** | **Portable Version (optional)** — runs without installation |
+| `SHA256SUMS.txt` | Download checksums |
 | `LICENSE.txt` | GNU GPL v3 license text |
-| `THIRD-PARTY-NOTICES.txt` | Licenses of bundled third-party components |
+| `THIRD-PARTY-NOTICES.txt` | Third-party software license notices |
+
+Both application versions offer NOXEL's display-management features. **The portable EXE is not the installer.**
 
 ## Licensing
 
