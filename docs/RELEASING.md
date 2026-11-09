@@ -27,7 +27,7 @@ NOXEL is transitioning from a proprietary EULA to **GNU GPL v3 only (SPDX `GPL-3
 
 1. Visit https://github.com/reprinted/NOXEL-Releases/releases/new
 2. Create a stable tag such as `v1.0.0` for a tested build.
-3. Attach binaries/checksums. Clearly link the matching tagged source in the public `NOXEL` repository and include license and compatibility notes.
+3. Attach binaries/checksums. Clearly label **`NOXEL-Setup.exe` as “Installer (recommended)”** and **`NOXEL.exe` as “Portable Version (no installation required)”** in the release description. Keep these exact filenames for the updater. Clearly link the matching tagged source in the public `NOXEL` repository and include license and compatibility notes.
 4. Verify downloads and API endpoint: https://api.github.com/repos/reprinted/NOXEL-Releases/releases/latest
 5. Test automatic update from an older controlled build without overwriting the development environment.
 
