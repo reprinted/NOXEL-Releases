@@ -1,24 +1,22 @@
-# NOXEL — Official Releases
+# NOXEL Releases
 
-**NOXEL** is a Windows display-management utility for resolutions, refresh rates, supported color controls, and saved presets.
+Download NOXEL for Windows 10/11 x64. NOXEL lets you switch display modes, adjust supported color controls, and save settings as presets.
 
-This repository is the **public binary-distribution channel**. The source code is published at [reprinted/NOXEL](https://github.com/reprinted/NOXEL); every release here links to the matching source tag (for example `v1.0.0`).
-
-## Downloads
-
-**Official recommended download: [NOXEL-Setup.exe — Installer](https://github.com/reprinted/NOXEL-Releases/releases/latest).** Open the latest release and choose `NOXEL-Setup.exe` under **Assets** to install NOXEL normally.
-
-**Alternative: [NOXEL.exe — Portable Version](https://github.com/reprinted/NOXEL-Releases/releases/latest).** The portable version runs directly without installing NOXEL. It is intended for people who prefer a standalone executable or want to test NOXEL without the normal installation process.
-
-| File | What it is |
+| Download | Choose this if |
 | --- | --- |
-| **`NOXEL-Setup.exe`** | **Installer (recommended)** — installs NOXEL like a normal Windows application |
-| **`NOXEL.exe`** | **Portable Version (optional)** — runs without installation |
+| **[Windows installer](https://github.com/reprinted/NOXEL-Releases/releases/latest/download/NOXEL-Setup.exe)** | You want the recommended per-user installation. |
+| [Portable executable](https://github.com/reprinted/NOXEL-Releases/releases/latest/download/NOXEL.exe) | You want to run NOXEL without installing it. |
+
+[Release notes and all assets](https://github.com/reprinted/NOXEL-Releases/releases/latest) · [Source code and documentation](https://github.com/reprinted/NOXEL)
+
+## Other release assets
+
+| File | Purpose |
+| --- | --- |
 | `SHA256SUMS.txt` | Download checksums |
+| `NOXEL-source.zip` | Corresponding source archive |
 | `LICENSE.txt` | GNU GPL v3 license text |
 | `THIRD-PARTY-NOTICES.txt` | Third-party software license notices |
-
-Both application versions offer NOXEL's display-management features. **The portable EXE is not the installer.**
 
 ## Licensing
 
@@ -28,7 +26,7 @@ Third-party components and assets retain their own licenses (see `THIRD-PARTY-NO
 
 ## Compatibility
 
-Target: Windows 10/11 x64. Actual available modes and advanced color controls depend on the GPU, driver, display, and Windows configuration. Cross-vendor support must not be represented as hardware-tested without evidence.
+Target: Windows 10/11 x64. Actual available modes and advanced color controls depend on the GPU, driver, display, and Windows configuration. See the [compatibility notes](https://github.com/reprinted/NOXEL#compatibility) for tested hardware and driver-specific features.
 
 ## Updates
 
